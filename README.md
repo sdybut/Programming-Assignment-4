@@ -45,10 +45,11 @@ b. Creates an Average per student (mean of Math, Electronics, GEAS, Communicatio
 
  **Ouput**
 
-  <img width="498" height="268" alt="image" src="https://github.com/user-attachments/assets/b6495cf0-8a4b-4c9e-92df-ee63ceffaa55" />
+  <img width="498" height="268" alt="image" src="https://github.com/user-attachments/assets/b6495cf0-8a4b-4c9e-92df-ee63ceffaa55" /><br/>
+  <br/>
 
  **Conclusion**
-   
+In conclusion, this pandas program filtered the dataset into two subsets using conditional selection with .loc[]. For the first part, I selected only those students whose Track is Instrumentation, Hometown is Luzon, and with Electronics greater than 70, then displayed their Name, GEAS, and Electronics. For the second part, I first created a new column Average by computing the mean of Math, Electronics, GEAS, and Communication for each student. I then filtered the data to keep only female students from Mindanao with an Average ≥ 55, showing their Name, Track, Electronics, and Average.   
   
 
 <hr/>
@@ -106,9 +107,8 @@ A visualization that shows how the different features contributes to average gra
 **Output**
 
   <img width="848" height="666" alt="image" src="https://github.com/user-attachments/assets/0dec699c-4014-417f-bd64-c140559f05f3" /><br\>
-
+<br/>
     
 **Conclusion**
 
-To conclude, this Pandas program uses subsetting, slicing, and indexing to extract specific data from the cars DataFrame. The first task displayed the first five rows with odd-numbered columns using .iloc[]. The second task filtered the DataFrame to show the row of the car model Mazda RX4. The third task identified the number of cylinders of Camaro Z28 using .loc[]. Finally, the last task displayed both the cylinder count and gear type of Mazda RX4 Wag, Ford Pantera L, and Honda Civic. These operations demonstrate how Pandas makes it easy to access and analyze precise parts of a dataset.
-  
+In conclusion, this pandas and Matplotlib program computed an Average column from the four subjects and then used groupby() with bar charts to compare mean scores by track, gender, and hometown. The results showed that the Communication track had the highest overall average, Luzon students scored slightly higher than those from Visayas and Mindanao, and the difference between male and female students was very minimal. These visualizations demonstrate how pandas can be used for summarizing data and Matplotlib for presenting clear comparisons, making it easier to see how different features contribute to variations in average performance.
