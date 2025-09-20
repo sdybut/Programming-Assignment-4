@@ -89,10 +89,10 @@ A visualization that shows how the different features contributes to average gra
 
 **Output**
 
-  <img width="840" height="660" alt="image" src="https://github.com/user-attachments/assets/054a2141-a20e-43c2-b678-c0586ff5c2a8" /><br\>
+  <img width="840" height="660" alt="image" src="https://github.com/user-attachments/assets/054a2141-a20e-43c2-b678-c0586ff5c2a8" /><br/>
   <br/>
 
-  c. Average by Hometown: Groups by hometown and draws a bar chart of the mean Average for each region.<br\>
+  c. Average by Hometown: Groups by hometown and draws a bar chart of the mean Average for each region.<br/>
 
 **Code**
 
@@ -106,7 +106,7 @@ A visualization that shows how the different features contributes to average gra
 
 **Output**
 
-  <img width="848" height="666" alt="image" src="https://github.com/user-attachments/assets/0dec699c-4014-417f-bd64-c140559f05f3" /><br\>
+  <img width="848" height="666" alt="image" src="https://github.com/user-attachments/assets/0dec699c-4014-417f-bd64-c140559f05f3" /><br/>
 <br/>
     
 **Conclusion**
