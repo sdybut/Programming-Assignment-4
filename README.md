@@ -75,6 +75,7 @@ A visualization that shows how the different features contributes to average gra
 
   <img width="852" height="672" alt="image" src="https://github.com/user-attachments/assets/8bac2145-5e91-4d58-afac-1d2965762ef7" /><br\>
   <br/>
+  <br/>
 
   b. Average by Gender: Groups by gender and draws a bar chart of the mean Average for each gender.
 
