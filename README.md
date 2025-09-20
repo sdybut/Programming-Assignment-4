@@ -48,14 +48,15 @@ b. Creates an Average per student (mean of Math, Electronics, GEAS, Communicatio
   <img width="498" height="268" alt="image" src="https://github.com/user-attachments/assets/b6495cf0-8a4b-4c9e-92df-ee63ceffaa55" /><br/>
   <br/>
 
- **Conclusion**
-In conclusion, this pandas program filtered the dataset into two subsets using conditional selection with .loc[]. For the first part, I selected only those students whose Track is Instrumentation, Hometown is Luzon, and with Electronics greater than 70, then displayed their Name, GEAS, and Electronics. For the second part, I first created a new column Average by computing the mean of Math, Electronics, GEAS, and Communication for each student. I then filtered the data to keep only female students from Mindanao with an Average ≥ 55, showing their Name, Track, Electronics, and Average.   
+ **Conclusion**<br/>
+     In conclusion, this pandas program filtered the dataset into two subsets using conditional selection with .loc[]. For the first part, I selected only those students whose Track is Instrumentation, Hometown is Luzon, and with Electronics greater than 70, then displayed their Name, GEAS, and Electronics. For the second part, I first created a new column Average by computing the mean of Math, Electronics, GEAS, and Communication for each student. I then filtered the data to keep only female students from Mindanao with an Average ≥ 55, showing their Name, Track, Electronics, and Average.   
   
 
 <hr/>
 
 ### Problem 2
 A visualization that shows how the different features contributes to average grade. Does chosen track in college, gender, or hometown contributes to a higher average score?<br/>
+<br/>
   a. Average by Track: Groups by track and draws a bar chart of the mean Average for each track.<br/>
 
 **Code**
