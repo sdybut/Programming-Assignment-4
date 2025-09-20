@@ -28,10 +28,12 @@ a. Filters the table to Instrumentation students from Luzon with Electronics > 7
        
  **Output**
 
-  <img width="315" height="172" alt="image" src="https://github.com/user-attachments/assets/4b1292ba-9574-4da8-aed5-858fe7ba36a3" />
+  <img width="315" height="172" alt="image" src="https://github.com/user-attachments/assets/4b1292ba-9574-4da8-aed5-858fe7ba36a3" /><br/>
+  <br/>
 
-b. Creates an Average per student (mean of Math, Electronics, GEAS, Communication), then keeps female students from Mindanao with Average ≥ 55 and shows Name, Track, Electronics, and Average.
- **Code**
+b. Creates an Average per student (mean of Math, Electronics, GEAS, Communication), then keeps female students from Mindanao with Average ≥ 55 and shows Name, Track, Electronics, and Average.<br/>
+
+**Code**
 
      bd['Average'] = bd[['Math', 'Electronics', 'GEAS', 'Communication']].mean(axis=1) #compute the average of all the subjects per examinee and then add it as a new column
 
@@ -47,12 +49,13 @@ b. Creates an Average per student (mean of Math, Electronics, GEAS, Communicatio
 
  **Conclusion**
    
-  To conclude, this Pandas program loads the cars.csv file into a DataFrame and displays its first five rows using .head() and last five rows using .tail(). These functions give a quick view of the dataset, helping us confirm that the file was read correctly and understand its basic structure.
+  
 
+<hr/>
 
 ### Problem 2
 A visualization that shows how the different features contributes to average grade. Does chosen track in college, gender, or hometown contributes to a higher average score?<br/>
-  a. Average by Track: Groups by track and draws a bar chart of the mean Average for each track.
+  a. Average by Track: Groups by track and draws a bar chart of the mean Average for each track.<br/>
 
 **Code**
 
@@ -69,12 +72,13 @@ A visualization that shows how the different features contributes to average gra
 **Output**
 
   <img width="852" height="672" alt="image" src="https://github.com/user-attachments/assets/8bac2145-5e91-4d58-afac-1d2965762ef7" /><br\>
+  <br/>
 
   b. Average by Gender: Groups by gender and draws a bar chart of the mean Average for each gender.
 
 **Code**
 
-    avg = bd.groupby('Gender')['Average'].mean() # Compute the mean or 'Average' for each Track
+    avg = bd.groupby('Gender')['Average'].mean() # Compute the mean or 'Average' for each Gender
 
     plt.bar (avg.index, avg.values, color = ['skyblue', 'salmon', 'bisque']) # Draw one bar per gender using its mean and also assign custom colors (order follows avg.index)
     plt.title('Average by Gender') # Add title to the chart
@@ -84,19 +88,25 @@ A visualization that shows how the different features contributes to average gra
 
 **Output**
 
-  <img width="852" height="672" alt="image" src="https://github.com/user-attachments/assets/8bac2145-5e91-4d58-afac-1d2965762ef7" /><br\>
+  <img width="840" height="660" alt="image" src="https://github.com/user-attachments/assets/054a2141-a20e-43c2-b678-c0586ff5c2a8" /><br\>
+  <br/>
 
-  b. Average by Gender: Groups by gender and draws a bar chart of the mean Average for each gender.
+  c. Average by Hometown: Groups by hometown and draws a bar chart of the mean Average for each region.<br\>
 
 **Code**
 
-    avg = bd.groupby('Gender')['Average'].mean() # Compute the mean or 'Average' for each Track
-
+    avg = bd.groupby('Hometown')['Average'].mean() # Compute the mean or 'Average' for each Hometown
+    
     plt.bar (avg.index, avg.values, color = ['skyblue', 'salmon', 'bisque']) # Draw one bar per gender using its mean and also assign custom colors (order follows avg.index)
-    plt.title('Average by Gender') # Add title to the chart
+    plt.title('Average by Hometown') # Add title to the chart
     plt.ylabel('Mean') # Label the y-axis to show mean values
-    plt.xlabel('Gender') # Label the x-axis to show the categories
+    plt.xlabel('Hometown') # Label the x-axis to show the categories
     plt.show() # display
+
+**Output**
+
+  <img width="848" height="666" alt="image" src="https://github.com/user-attachments/assets/0dec699c-4014-417f-bd64-c140559f05f3" /><br\>
+
     
 **Conclusion**
 
