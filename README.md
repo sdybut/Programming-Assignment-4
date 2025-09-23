@@ -83,7 +83,7 @@ A visualization that shows how the different features contributes to average gra
 
     avg = bd.groupby('Gender')['Average'].mean() # Compute the mean or 'Average' for each Gender
 
-    plt.bar (avg.index, avg.values, color = ['skyblue', 'salmon', 'bisque']) # Draw one bar per gender using its mean and also assign custom colors (order follows avg.index)
+    plt.bar (avg.index, avg.values, color = ['skyblue', 'salmon']) # Draw one bar per gender using its mean and also assign custom colors (order follows avg.index)
     plt.title('Average by Gender') # Add title to the chart
     plt.ylabel('Mean') # Label the y-axis to show mean values
     plt.xlabel('Gender') # Label the x-axis to show the categories
