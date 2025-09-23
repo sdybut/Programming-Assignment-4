@@ -7,7 +7,7 @@
      import matplotlib.pyplot as plt #import the Matplotlib library as 'plt'
      import pandas as pd #import the pandas library as 'pd'
 
-     bd = pd.read_csv ('board2.csv') #Read a CSV file into a pandas DataFrame
+     bd = pd.read_excel('board2.xls') #Read a excel file into a pandas DataFrame
      bd #print
      
  **Output**
